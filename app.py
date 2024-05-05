@@ -34,5 +34,3 @@ def upload():
     return render_template('upload.html', predictions={})
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
