@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lung Disease Detection | Upload</title>
+    <link rel="stylesheet" href="/static/styles/upload.css" />
+  </head>
+  <body>
+    <div class="main-cnt">
+      <div class="upload-cnt">
+        <div class="dashed-square">
+          <label for="file-upload" class="custom-file-upload">
+            Upload Scan
+          </label>
+          <input type="file" id="file-upload" />
+          <img id="uploaded-image" src="" alt="Uploaded Scan" />
+        </div>
+        <div class="sub-btn">
+          <button class="bouncy-button" id="show-result-button">
+            Show Result
+          </button>
+        </div>
+      </div>
+      <div class="info-cnt">
+        <div class="info-heading">
+          <h1>Upload Image for Lung Diseases Detection</h1>
+        </div>
+
+        <div class="predicted-info" id="predicted-class"></div>
+        <div class="spinner-div">
+          <div class="spinner" id="spinner"></div>
+        </div>
+      </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+    <script></script>
+  </body>
+</html>
